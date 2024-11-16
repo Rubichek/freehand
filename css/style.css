@@ -1,0 +1,181 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.logo img {
+    margin: 22.5px 0;
+}
+
+hr {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    border: 1px solid #EFEEF3;
+}
+
+main {
+    margin: 100px 0 100px;
+}
+
+p {
+    color: #7690A8;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+h1 {
+    color: #16133D;
+    font-size: 40px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.20px;
+    margin: 0 0 40px;
+}
+
+.cards {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.item {
+    border-radius: 8px;
+    border: 1px #E5EAF4 solid;
+    flex-basis: 370px;
+}
+
+h2 {
+    color: #16133D;
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 21.28px;
+}
+
+.description {
+    color: #16133D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+a.link-learn-more {
+    color: #3DB370;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.item:hover {
+    border: 1px #3DB370 solid;
+    transition: transform 0.5s ease;
+}
+
+.item:hover .megaphone-icon {
+    content: url(../images/megaphone-green.svg);
+}
+
+.item:hover .building-icon {
+    content: url(../images/building-green.svg);
+}
+
+.item:hover .phone-icon {
+    content: url(../images/phone-green.svg);
+}
+
+.item-content {
+    padding: 40px;
+}
+
+.megaphone-icon {
+    width: 38.75px;
+    height: 36px;
+    background-image: url(../images/megaphone-blue.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: 1px rgba(21, 101, 216, 0.10) solid;
+    padding: 12px;
+}
+
+
+.building-icon {
+    width: 38.75px;
+    height: 36px;
+    background-image: url(../images/building-blue.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: 1px rgba(21, 101, 216, 0.10) solid;
+    padding: 12px;
+}
+
+.phone-icon {
+    width: 38.75px;
+    height: 36px;
+    background-image: url(../images/phone-blue.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: 1px rgba(21, 101, 216, 0.10) solid;
+    padding: 12px;
+}
+
+.footer {
+    background-color: #16133D;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+}
+
+img.footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-container {
+    padding: 40px;
+}
+
+.socials {
+    display: flex;
+    grid-gap: 10px;
+    padding: 0;
+}
+
+.socials li {
+    list-style-type: none;
+}
+
+.instagram-icon,
+.facebook-icon,
+.github-icon,
+.dribbble-icon,
+.twitter-icon {
+    background: #EFEEF3;
+    border-radius: 5px;
+}
+
+
+.instagram-icon {
+    padding: 9px;
+}
+
+.facebook-icon {
+    padding: 10px 14px;
+}
+
+.github-icon {
+    padding: 9px 9px 9.5px 9px;
+}
+
+.dribbble-icon {
+    padding: 9px 9.3px 9.62px 9px;
+}
+
+.twitter-icon {
+    padding: 11px 9px 10.76px 9px;
+}
